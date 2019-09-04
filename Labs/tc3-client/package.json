@@ -1,0 +1,26 @@
+{
+    "name": "tc3client",
+    "version": "1.0.0",
+    "description": "The Caribbean Coffee Company",
+    "devDependencies": {
+        "@babel/preset-env": "^7.5.5",
+        "babel-jest": "^24.9.0",
+        "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+        "dom-serialize": "^2.2.1",
+        "jest": "^24.9.0",
+        "jest-cli": "^24.9.0",
+        "jest-fetch-mock": "^2.1.2",
+        "puppeteer": "^1.19.0",
+        "puppeteer-select": "^1.0.3",
+        "webpack": "^4.39.3",
+        "webpack-cli": "^3.3.7",
+        "webpack-dev-server": "^3.8.0"
+    },
+    "dependencies": {
+        "jquery": "^3.4.1"
+    },
+    "scripts": {
+        "start": "npx webpack-dev-server",
+        "build": "npx webpack"
+    }
+}
